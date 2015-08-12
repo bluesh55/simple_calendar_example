@@ -1,28 +1,18 @@
-== README
+== Simple Calendar Example
+Simple Calendar 사용해서 달력 출력하는 예제  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://github.com/excid3/simple_calendar
 
-Things you may want to cover:
+커밋 순서:
 
-* Ruby version
+* Initialize
 
-* System dependencies
+* Simple Calendar Gem 설치
 
-* Configuration
+* Meeting 스캐폴드 생성
 
-* Database creation
+* DB migrate
 
-* Database initialization
+* Simple Calendar 사용해서 View에 달력 출력
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* CSS로 달력모양 만들기
