@@ -1,3 +1,41 @@
 // Place all the styles related to the Meetings controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+th, td {
+  display: inline-block;
+  border: 2px solid #dddddd;
+}
+th {
+  width: 100px;
+  text-align: left;
+}
+td {
+  width: 100px;
+  height: 100px;
+}
+tr:nth-child(even) {
+  td {
+    background-color: #f1f1f1;
+  }
+}
+
+tr:nth-child(odd) {
+  td {
+    background-color: #ffffff;
+  }
+}
+
+tr {
+  td.prev-month {
+    background-color: #c5c4c4;
+  }
+
+  td.next-month {
+    background-color: #c5c4c4;
+  }
+
+  td.today {
+    background-color: #fcfd96;
+  }
+}
